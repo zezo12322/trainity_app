@@ -1,0 +1,81 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "retry": "Retry",
+    "send": "Send"
+  },
+  "navigation": {
+    "trainingRequests": "Training Requests"
+  },
+  "trainingRequests": {
+    "title": "Title",
+    "description": "Description",
+    "specialization": "Specialization",
+    "province": "Province",
+    "requestedDate": "Requested Date",
+    "duration": "Duration",
+    "hours": "hours",
+    "maxParticipants": "Max Participants",
+    "status": "Status",
+    "requestDetails": "Request Details",
+    "requestInfo": "Request Information",
+    "requesterInfo": "Requester Information",
+    "trainerInfo": "Trainer Information",
+    "name": "Name",
+    "role": "Role",
+    "email": "Email",
+    "approve": "Approve",
+    "reject": "Reject",
+    "pending": "Pending",
+    "completed": "Completed",
+    "noPendingRequests": "No pending requests",
+    "noCompletedRequests": "No completed requests",
+    "newRequest": "New Request",
+    "trainingDate": "Training Date",
+    "enterDuration": "Enter duration in hours",
+    "enterMaxParticipants": "Enter maximum participants",
+    "attachments": "Attachments",
+    "submitRequest": "Submit Request",
+    "requestSubmitted": "Request submitted successfully",
+    "userProvince": "Your current province",
+    "waitingForCCApproval": "Waiting for Development Management Officer approval",
+    "waitingForSupervisorApproval": "Waiting for Supervisor approval",
+    "waitingForPMApproval": "Waiting for Project Manager approval",
+    "approvedWaitingForTrainer": "Approved - Waiting for trainer assignment",
+    "trainerAssigned": "Trainer assigned",
+    "rejected": "Rejected",
+    "statuses": {
+      "under_review": "Under Review",
+      "cc_approved": "CC Approved",
+      "sv_approved": "SV Approved",
+      "pm_approved": "PM Approved",
+      "tr_assigned": "Trainer Assigned",
+      "final_approved": "Final Approved",
+      "completed": "Completed",
+      "rejected": "Rejected"
+    }
+  },
+  "rating": {
+    "rateTraining": "Rate Training",
+    "rateYourExperience": "Rate your experience",
+    "ratingSubmitted": "Rating submitted successfully"
+  },
+  "errors": {
+    "approvalFailed": "Failed to approve request"
+  },
+  "training": {
+    "approve": "Approve",
+    "confirmApproval": "Are you sure you want to approve this request?",
+    "alreadyApproved": "Already approved",
+    "waitingForTrainerApplication": "Waiting for trainer applications",
+    "requestApproved": "Request approved"
+  }
+}

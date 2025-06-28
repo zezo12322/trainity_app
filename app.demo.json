@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Life Makers Pirates",
-    "slug": "life-makers-pirates",
-    "version": "1.0.0",
-    "scheme": "lifemakerspirates",
+    "name": "Life Makers Pirates - Demo",
+    "slug": "life-makers-pirates-demo",
+    "version": "1.0.0-demo",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -18,10 +17,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lifemakers.pirates",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "bundleIdentifier": "com.lifemakers.pirates.demo"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,14 +25,17 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.lifemakers.pirates",
+      "package": "com.lifemakers.pirates.demo",
       "versionCode": 1,
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
-        "NOTIFICATIONS"
-      ]
+        "NOTIFICATIONS",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -44,20 +43,24 @@
       "build": {
         "babel": {
           "include": [
-            "@expo/vector-icons",
-            "react-native-gesture-handler",
-            "react-native-reanimated"
+            "@expo/vector-icons"
           ]
         }
       }
     },
-
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "extra": {
       "eas": {
-        "projectId": "ba624c15-3d95-47f6-b32b-38e3255659bc"
-      }
+        "projectId": "your-project-id-here"
+      },
+      "isDemo": true,
+      "demoVersion": "1.0.0",
+      "buildDate": "2024-12-23"
     },
-    "owner": "zezo123",
-    "runtimeVersion": "1.0.0"
+    "owner": "lifemakers-team",
+    "description": "تطبيق إدارة التدريب لبرنامج صناع الحياة القراصنة - نسخة تجريبية",
+    "privacy": "public"
   }
 }

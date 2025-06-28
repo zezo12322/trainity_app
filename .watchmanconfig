@@ -1,0 +1,11 @@
+{
+  "ignore_dirs": [
+    "android/build",
+    "ios/build", 
+    ".gradle",
+    "node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build",
+    "node_modules/**/build",
+    "node_modules/**/android/build",
+    "node_modules/**/ios/build"
+  ]
+}
